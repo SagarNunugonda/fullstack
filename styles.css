@@ -1,0 +1,131 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to right, #ff6f61, #ff9642);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff6f61, #ff9642);
+    text-align: center;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff6f61;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.categories {
+    text-align: center;
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.category {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.category img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonials {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+footer {
+    background: linear-gradient(to right, #ff6f61, #ff9642);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
